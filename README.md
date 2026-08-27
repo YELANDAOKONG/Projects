@@ -72,5 +72,5 @@
 ---
 
 <p align="center">
-  <i>Developed with ❤️ by <a href="https://github.com/YELANDAOKONG">YELANDAOKONG</a></i>
+  <i>Developed with ❤️ by <a href="https://github.com/YELANDAOKONG">YELANDAOKONG</a> 🍥 </i>
 </p>
