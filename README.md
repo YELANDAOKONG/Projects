@@ -16,6 +16,26 @@
 
 ---
 
+## 💎 Crystal Ecosystem
+
+> A provider-neutral AI foundation, a production coding agent, and an extensible tool collection designed to work together without coupling the core library to any model vendor or application.
+
+<div align="center">
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystal&theme=tokyonight)](https://github.com/YELANDAOKONG/Crystal)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Tools&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Tools)
+
+</div>
+
+### 📌 Ecosystem Highlights
+
+- **[Crystal](https://github.com/YELANDAOKONG/Crystal)**: A provider-neutral C# library for text and multimodal model access, media generation, tool execution, bounded Agents, and explicit Agent Harness composition.
+- **[CrystalCode](https://github.com/YELANDAOKONG/CrystalCode)**: A production coding agent for local repositories, featuring a streaming terminal UI, Plan and Work modes, risk-aware approval, automatic context compaction, multiple provider protocols, and extensible operator tools.
+- **[CrystalCode.Tools](https://github.com/YELANDAOKONG/CrystalCode.Tools)**: A collection of external tool sets for CrystalCode. Tool sets extend the Plan and Work catalogs without modifying the host or the Crystal library.
+
+---
+
 ## 🤖 Agent Skill Projects
 
 > Professional, language-agnostic and framework-specific skill definitions for AI coding agents (Claude Code, Cursor, OpenCode, Codex, etc.). These skills enforce clean architectures, coding standards, and maintainable project structures.
@@ -63,6 +83,9 @@
 
 | Project | Category | Primary Tech | Description |
 | :--- | :--- | :--- | :--- |
+| **[Crystal](https://github.com/YELANDAOKONG/Crystal)** | AI Library | C# / .NET 10 | Provider-neutral text and multimodal model APIs, tools, Agents, and Harness composition |
+| **[CrystalCode](https://github.com/YELANDAOKONG/CrystalCode)** | Coding Agent | C# / .NET 10 / TUI | Production terminal coding agent with streaming model-and-tool loops, approval controls, and context compaction |
+| **[CrystalCode.Tools](https://github.com/YELANDAOKONG/CrystalCode.Tools)** | Agent Tools | Python / Tool Sets | External model-callable tools for extending CrystalCode's Plan and Work catalogs |
 | **[CSharpCodeOrganizationSkill](https://github.com/YELANDAOKONG/CSharpCodeOrganizationSkill)** | AI Agent Skill | Markdown / Skill | .NET solution, project, namespace & folder organization skill for AI agents |
 | **[UniversalCodingStandardsSkill](https://github.com/YELANDAOKONG/UniversalCodingStandardsSkill)** | AI Agent Skill | Markdown / Skill | Language-agnostic safety, quality, and convention standards for AI coding |
 | **[CSharpCleanCodeSkill](https://github.com/YELANDAOKONG/CSharpCleanCodeSkill)** | AI Agent Skill | Markdown / Skill | Clean code conventions, modern idioms, and syntax rules for C# |
