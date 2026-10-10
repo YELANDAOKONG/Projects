@@ -18,21 +18,37 @@
 
 ## 💎 Crystal Ecosystem
 
-> A provider-neutral AI foundation, a production coding agent, and an extensible tool collection designed to work together without coupling the core library to any model vendor or application.
+> A provider-neutral AI foundation, a production coding agent, and an extensible ecosystem of tool sets, plugins, and model catalogs designed to work together without coupling the core library to any model vendor or application.
+
+### 🏛️ Core Projects
 
 <div align="center">
 
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystal&theme=tokyonight)](https://github.com/YELANDAOKONG/Crystal)
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Tools&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Tools)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Defaults&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Defaults)
 
 </div>
 
-### 📌 Ecosystem Highlights
-
 - **[Crystal](https://github.com/YELANDAOKONG/Crystal)**: A provider-neutral C# library for text and multimodal model access, media generation, tool execution, bounded Agents, and explicit Agent Harness composition.
 - **[CrystalCode](https://github.com/YELANDAOKONG/CrystalCode)**: A production coding agent for local repositories, featuring a streaming terminal UI, Plan and Work modes, risk-aware approval, automatic context compaction, multiple provider protocols, and extensible operator tools.
+- **[CrystalCode.Defaults](https://github.com/YELANDAOKONG/CrystalCode.Defaults)**: The reference `providers.json` catalog for Crystal Code — named endpoints, protocols, model ids, and per-model metadata such as context window, thinking efforts, and image input.
+
+### 🔌 Extensions & Plugins
+
+<div align="center">
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Tools&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Tools)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Tools.Web&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Tools.Web)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Tools.Memory&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Tools.Memory)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=YELANDAOKONG&repo=YELANDAOKONG%2FCrystalCode.Plugins.Computer&theme=tokyonight)](https://github.com/YELANDAOKONG/CrystalCode.Plugins.Computer)
+
+</div>
+
 - **[CrystalCode.Tools](https://github.com/YELANDAOKONG/CrystalCode.Tools)**: A collection of external tool sets for CrystalCode. Tool sets extend the Plan and Work catalogs without modifying the host or the Crystal library.
+- **[CrystalCode.Tools.Web](https://github.com/YELANDAOKONG/CrystalCode.Tools.Web)**: A native .NET tool set giving the agent live web search (Parallel or Exa MCP) and page fetch as text, Markdown, or raw HTML, with model-controlled response sizes.
+- **[CrystalCode.Tools.Memory](https://github.com/YELANDAOKONG/CrystalCode.Tools.Memory)**: A native .NET tool set that lets the agent keep durable notes across sessions, in a shared global scope plus an opt-in per-project scope, with atomic owner-only storage.
+- **[CrystalCode.Plugins.Computer](https://github.com/YELANDAOKONG/CrystalCode.Plugins.Computer)**: A plugin that lets the agent see and control one already-running VirtualBox VM — display capture, keyboard and pointer input, and guest process execution, all scoped to a host-configured VM UUID.
 
 ---
 
@@ -85,7 +101,11 @@
 | :--- | :--- | :--- | :--- |
 | **[Crystal](https://github.com/YELANDAOKONG/Crystal)** | AI Library | C# / .NET 10 | Provider-neutral text and multimodal model APIs, tools, Agents, and Harness composition |
 | **[CrystalCode](https://github.com/YELANDAOKONG/CrystalCode)** | Coding Agent | C# / .NET 10 / TUI | Production terminal coding agent with streaming model-and-tool loops, approval controls, and context compaction |
+| **[CrystalCode.Defaults](https://github.com/YELANDAOKONG/CrystalCode.Defaults)** | Model Catalog | JSON | Default provider and model definitions (`providers.json`) for Crystal Code |
 | **[CrystalCode.Tools](https://github.com/YELANDAOKONG/CrystalCode.Tools)** | Agent Tools | Python / Tool Sets | External model-callable tools for extending CrystalCode's Plan and Work catalogs |
+| **[CrystalCode.Tools.Web](https://github.com/YELANDAOKONG/CrystalCode.Tools.Web)** | Agent Tools | C# / .NET 10 | `websearch` and `webfetch` tool set backed by Parallel / Exa Search MCP |
+| **[CrystalCode.Tools.Memory](https://github.com/YELANDAOKONG/CrystalCode.Tools.Memory)** | Agent Tools | C# / .NET 10 | Durable cross-session memory notes in global and opt-in project scopes |
+| **[CrystalCode.Plugins.Computer](https://github.com/YELANDAOKONG/CrystalCode.Plugins.Computer)** | Agent Plugin | C# / .NET 10 / VirtualBox | VM control for Crystal Code: display capture, keyboard/pointer input, guest processes |
 | **[CSharpCodeOrganizationSkill](https://github.com/YELANDAOKONG/CSharpCodeOrganizationSkill)** | AI Agent Skill | Markdown / Skill | .NET solution, project, namespace & folder organization skill for AI agents |
 | **[UniversalCodingStandardsSkill](https://github.com/YELANDAOKONG/UniversalCodingStandardsSkill)** | AI Agent Skill | Markdown / Skill | Language-agnostic safety, quality, and convention standards for AI coding |
 | **[CSharpCleanCodeSkill](https://github.com/YELANDAOKONG/CSharpCleanCodeSkill)** | AI Agent Skill | Markdown / Skill | Clean code conventions, modern idioms, and syntax rules for C# |
